@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#2196f3, #e91e63);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.2); /* Adjusted background color with transparency */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(63, 160, 234, 0.8);
+    color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-number {
+    font-size: 3em;
+    padding: 30px 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
